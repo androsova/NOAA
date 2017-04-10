@@ -18,7 +18,7 @@ This function reads tab-delimited file of the entire significant earthquake
 data available at \code{NOAA_url} from U.S. National Oceanographic
 and Atmospheric Administration (NOAA) database and returns a tibble (data.frame).
 After reading the columns YEAR, MONTH and DAY are merged into column named
-DATE which contains Date class entries.
+DATE, which contains Date class entries.
 }
 \note{
 This function will give error if the file path is incorrect or

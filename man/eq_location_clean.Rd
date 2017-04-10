@@ -13,10 +13,10 @@ eq_location_clean(data)
 This function returns a tibble (data.frame)
 }
 \description{
-This function a data.frame of the entire significant earthquake
-data \code{data}, cleans the LOCATION_NAME column by stripping out
-the country name (including the colon) and converts names to title
-case (as opposed to all caps).
+This function takes as input a data.frame of the entire significant
+earthquake data \code{data}, cleans the LOCATION_NAME column by
+stripping out the country name (including the colon) and converts
+names to title case (as opposed to all caps).
 }
 \examples{
 NOAA_url = "https://www.ngdc.noaa.gov/nndc/struts/results?type_0=Exact&query_0=$ID&t=101650&s=13&d=189&dfn=signif.txt"

@@ -94,7 +94,7 @@ geom_timeline_label = function(data, xmindate, xmaxdate, country = c("USA"), n_m
                    axis.line.y = element_line(colour = "white"),
                    axis.ticks.y = element_line(colour = "white"))+
     ggplot2::labs(size = "Richter scale value", color = "# deaths")+
-    ggplot2::geom_text(data=NOAA_filtered[NOAA_filtered$EQ_MAG_MW > n_max,],
+    ggplot2::geom_text(data=data_filtered[data_filtered$EQ_MAG_MW > n_max,],
                        aes(x = DATE,y = COUNTRY, angle = 30, size = 5),
                        nudge_y = 0.1, hjust = 0, show.legend  = FALSE)
 }
@@ -114,8 +114,8 @@ geom_timeline_label = function(data, xmindate, xmaxdate, country = c("USA"), n_m
 #' @return This function returns a ggplot
 #'
 #' @import dplyr
-#' @import lubridate
-#' @import leaflet
+#' @importFrom lubridate year
+#' @importFrom leaflet leaflet addTiles addCircleMarkers
 #'
 #' @examples
 #' NOAA_clean_data = eq_clean_data("https://www.ngdc.noaa.gov/nndc/struts/results?type_0=Exact&query_0=$ID&t=101650&s=13&d=189&dfn=signif.txt")

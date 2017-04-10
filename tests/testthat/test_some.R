@@ -50,9 +50,9 @@ test_that("geom_timeline_label() performs correctly", {
 test_that("eq_map() performs correctly", {
   expect_is(NOAA_clean_data %>%
               dplyr::filter(COUNTRY == "MEXICO" & lubridate::year(DATE) >= 2000) %>%
-              eq_map(annot_col = "DATE"), c("gg", "ggplot"))
+              eq_map(annot_col = "DATE"), c("leaflet", "htmlwidget"))
   expect_is(NOAA_clean_data %>%
               dplyr::filter(COUNTRY == "MEXICO" & lubridate::year(DATE) >= 2000) %>%
               dplyr::mutate(popup_text = eq_create_label(.)) %>%
-              eq_map(annot_col = "popup_text"), c("gg", "ggplot"))
+              eq_map(annot_col = "popup_text"), c("leaflet", "htmlwidget"))
 })

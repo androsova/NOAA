@@ -132,7 +132,7 @@ filter_date_and_country = function(data, xmindate, xmaxdate, country){
 #' and the total number of deaths (TOTAL_DEATHS).
 #'
 #' @import dplyr
-#' @import lubridate
+#' @importFrom lubridate year
 #'
 #' @examples
 #' NOAA_clean_data = eq_clean_data("https://www.ngdc.noaa.gov/nndc/struts/results?type_0=Exact&query_0=$ID&t=101650&s=13&d=189&dfn=signif.txt")
