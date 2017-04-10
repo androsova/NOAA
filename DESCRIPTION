@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Ganna Androsova
 Maintainer: Ganna Androsova <ganna.androsova@uni.lu>
 Description: The NOAA package is centered around a dataset obtained from the U.S. National Oceanographic and Atmospheric Administration (NOAA) on significant earthquakes around the world.
-License: GPL (>= 3)
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests:
