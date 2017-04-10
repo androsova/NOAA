@@ -8,9 +8,6 @@ Description: The NOAA package is centered around a dataset obtained from the U.S
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
-Suggests:
-    knitr,
-    rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 Imports: 
