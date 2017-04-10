@@ -1,12 +1,22 @@
 Package: NOAA
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Functions for work with the NOAA Significant Earthquakes dataset.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Ganna Androsova
+Maintainer: Ganna Androsova <ganna.androsova@uni.lu>
+Description: The NOAA package is centered around a dataset obtained from the U.S. National Oceanographic and Atmospheric Administration (NOAA) on significant earthquakes around the world.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
 RoxygenNote: 6.0.1
+Imports: 
+    dplyr,
+    readr,
+    ggplot2
+Suggests: knitr,
+    rmarkdown,
+    testthat
