@@ -1,3 +1,9 @@
+#######################################################################
+## Unauthorized copying of this file, via any medium is strictly     ##
+## prohibited. The code/project can not be copied and/or distributed ##
+## without the express permission of Ganna Androsova.                ##
+#######################################################################
+
 #' Polish LOCATION_NAME column in the significant earthquake data
 #'
 #' This function a data.frame of the entire significant earthquake

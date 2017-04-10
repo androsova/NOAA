@@ -1,3 +1,9 @@
+#######################################################################
+## Unauthorized copying of this file, via any medium is strictly     ##
+## prohibited. The code/project can not be copied and/or distributed ##
+## without the express permission of Ganna Androsova.                ##
+#######################################################################
+
 #' Geom for plotting a time line of earthquakes
 #'
 #' This function plots a time line of earthquakes from \code{data}
