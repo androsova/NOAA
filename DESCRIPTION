@@ -16,7 +16,9 @@ RoxygenNote: 6.0.1
 Imports: 
     dplyr,
     readr,
-    ggplot2
+    ggplot2,
+    leaflet,
+    lubridate
 Suggests: knitr,
     rmarkdown,
     testthat
