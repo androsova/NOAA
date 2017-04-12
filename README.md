@@ -1,5 +1,7 @@
 # `NOAA`: Functions for processing and visualizing earthquake dataset
 
+[![Travis-CI Build Status](https://travis-ci.org/androsova/NOAA.svg?branch=master)](https://travis-ci.org/androsova/NOAA)
+
 **DISCLAIMER:** 
 
 **DO NOT COPY OR USE ANY CONTECT FROM THIS PACKAGE. You are not allowed to use the code/scripts of this package for completing Coursera assignment(s). You are not allowed to copy the parts of the code for usage in your scripts. This package it placed in GitHub solely for evaluation of Coursera assignment and not with the distribution purposes.**
