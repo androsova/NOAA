@@ -136,6 +136,7 @@ filter_date_and_country = function(data, xmindate, xmaxdate, country){
 #' @importFrom lubridate year
 #'
 #' @examples
+#' library(dplyr)
 #' NOAA_clean_data = eq_clean_data("https://www.ngdc.noaa.gov/nndc/struts/results?type_0=Exact&query_0=$ID&t=101650&s=13&d=189&dfn=signif.txt")
 #' NOAA_clean_data %>% dplyr::filter(COUNTRY == "MEXICO" & lubridate::year(DATE) >= 2000) %>% dplyr::mutate(popup_text = eq_create_label(.)) %>% eq_map(annot_col = "popup_text")
 #'
