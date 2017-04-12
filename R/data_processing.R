@@ -57,6 +57,7 @@ eq_location_clean = function(data){
 #' file does not exist
 #'
 #' @importFrom readr read_delim
+#' @importFrom tidyr unite
 #' @import dplyr
 #'
 #' @examples
